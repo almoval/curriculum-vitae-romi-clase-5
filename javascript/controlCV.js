@@ -38,14 +38,16 @@ if(producto ["envioGratis"]){
 }
 
 arrayObjetoMisEStudios=[
-    {estudio:"javascript en",url:"http----------- , nombreLink: "cfl 408"}
-    {estudio:"python en",url:"http----------- , nombreLink: "cfl 408"}
+    {estudio:"Tec. Radióloga en",url:"https://www.fmed.uba.ar/", nombreLink: "uba medicina"}
+    {estudio:"Javascript en",url:"https://cfl408moron.com.ar/ , nombreLink: "cfp 408"}
 ]
 class itemLista {
     constructor () {
         this.estudio;
         this.url;
         this.nombreLink;
+
+
     }
 }
 // metodo
@@ -60,5 +62,5 @@ console.log(estudioslista);
 for(let valor of arrayObjetosMisEstudios){
     console.log("algo");
     console.log(valor);
-    elementonuevo = "<li>" + valor.estudio + " <a href "+ valor.url
+    elementonuevo = "<li>" + valor.estudio + " <a href "+ valor.url+"this.nombreLink+ "</a> </li>"
 }
