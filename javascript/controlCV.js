@@ -37,4 +37,28 @@ if(producto ["envioGratis"]){
     hago la logica para calcular el envio
 }
 
+arrayObjetoMisEStudios=[
+    {estudio:"javascript en",url:"http----------- , nombreLink: "cfl 408"}
+    {estudio:"python en",url:"http----------- , nombreLink: "cfl 408"}
+]
+class itemLista {
+    constructor () {
+        this.estudio;
+        this.url;
+        this.nombreLink;
+    }
+}
+// metodo
+elementonuevo(){
+    elementonuevo= "<li>"+ this.estudio + " a href=´"+ this.url+"this.nombreLink+ "</a> </li>"
 
+}
+let itemLista= new itemLista (ArrayMIsEstudios[0], "https://cfl408.com.ar")
+let itemLista1= new itemLista (ArrayMIsEstudios [1], "https://cfl408.com.ar")
+letestudiosLi9sta= document.getElementById("estudios");
+console.log(estudioslista);
+for(let valor of arrayObjetosMisEstudios){
+    console.log("algo");
+    console.log(valor);
+    elementonuevo = "<li>" + valor.estudio + " <a href "+ valor.url
+}
